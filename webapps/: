@@ -1,0 +1,8 @@
+<html>
+ <head>
+  <title>Machine {{ansible_hostname}}</title>
+ </head>
+ <body>
+  <p>Cette machine s'appelle {{ansible_hostname}}</p>
+ </body>
+</html>
