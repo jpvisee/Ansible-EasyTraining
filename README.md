@@ -13,3 +13,6 @@ prod:
   hosts:
     client:
       ansible_host: 10.0.0.4
+
+
+ansible-playbook -i hosts.yaml deploy.yaml
